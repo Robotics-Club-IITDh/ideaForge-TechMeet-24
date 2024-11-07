@@ -1,0 +1,50 @@
+\documentclass[12pt]{report}
+
+\usepackage{geometry}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\geometry{a4paper, left=0.75in, right=0.75in, top=1in, bottom=1in}
+\usepackage{titlesec}
+\usepackage{amsmath} 
+\usepackage{amsfonts} 
+\usepackage{amssymb}
+\usepackage{hyperref} 
+\usepackage{setspace}
+\usepackage{graphicx}
+
+\setstretch{1.15}
+
+\hypersetup{
+    colorlinks=true, 
+    linkcolor=black,  
+    urlcolor=blue    
+}
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \begin{center}
+        \hfill\rule{1\textwidth}{1.5pt}\hfill \\[4.5cm]
+        {\Huge \textbf{ideaForge $|$ Aerial Robotics}}\\[1.5cm]
+        {\LARGE \textbf{Mid-Term Report}}\\[0.5cm]
+        {\Large Inter-IIT Tech Meet 13.0, IIT Bombay}\\[1.5cm]
+        {\Large Team\_83}\\[3cm]
+        \vfill
+        \hfill\rule{1\textwidth}{1.5pt}\hfill \\[0.05cm]
+    \end{center}
+\end{titlepage}
+
+% Table of Contents with clickable links
+\tableofcontents
+% \newpage
+
+% Chapters
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter3}
+\include{chapters/chapter4}
+\include{chapters/chapter5}
+\include{chapters/chapter6}
+
+\end{document}
